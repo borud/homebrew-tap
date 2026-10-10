@@ -1,7 +1,6 @@
 class Amplifi < Formula
   desc "Inspect and control Ubiquiti AmpliFi routers over the local control protocol"
   homepage "https://github.com/borud/amplifi"
-  version "0.1.0"
   license "Apache-2.0"
 
   on_macos do
