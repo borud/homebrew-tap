@@ -1,19 +1,13 @@
-# homebrew formulae
+# borud/homebrew-tap
 
-My Homebrew formulae.
+Homebrew formulas for my tools.
 
-## copkg.rb
+```sh
+brew install borud/tap/<formula>
+```
 
-Experimental minimalist packaging system.  Install this by saying:
+| Formula | Description |
+| --- | --- |
+| [amplifi](https://github.com/borud/amplifi) | Inspect and control Ubiquiti AmpliFi routers over the local control protocol |
 
-    brew install https://raw.github.com/borud/homebrew/master/copkg.rb
-
-then open your favorite editor and modify the config file
-`~/.copkg/config.json` to suit your needs:
-
-    {
-        "username"       : "username",
-        "password"       : "password",
-        "packageBaseUrl" : "http://your.repository.here",
-        "packageDir"     : "/my/package/dir"
-    }
+Formulas are updated automatically by each project's release workflow.
