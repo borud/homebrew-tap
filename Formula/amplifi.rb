@@ -5,23 +5,23 @@ class Amplifi < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/borud/amplifi/releases/download/v0.1.1/amplifi_v0.1.1_darwin_arm64.tar.gz"
-      sha256 "2a309f6c69ca4c54574bfe434f074938233598bdf2941b27dd31c592c36a5184"
+      url "https://github.com/borud/amplifi/releases/download/v0.1.2/amplifi_v0.1.2_darwin_arm64.tar.gz"
+      sha256 "f2015c6184ef1dbc4aa8006b9edbec5b99515e4bff753efe637c3c031aa53a48"
     end
     on_intel do
-      url "https://github.com/borud/amplifi/releases/download/v0.1.1/amplifi_v0.1.1_darwin_amd64.tar.gz"
-      sha256 "cce1376bf02fa8a3ac1f3bd15b3883b6e96d0bd82b263228d3b2b2627ac1f096"
+      url "https://github.com/borud/amplifi/releases/download/v0.1.2/amplifi_v0.1.2_darwin_amd64.tar.gz"
+      sha256 "b326328585228d9fee20f56cb1051810ba4823974aeb2302ce52ad6b49a493bc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/borud/amplifi/releases/download/v0.1.1/amplifi_v0.1.1_linux_arm64.tar.gz"
-      sha256 "973578c293d47ab09bac21a2c1d2c9201c69921cb794136c1da3d4770ce6a774"
+      url "https://github.com/borud/amplifi/releases/download/v0.1.2/amplifi_v0.1.2_linux_arm64.tar.gz"
+      sha256 "a230e28034e53b06894191cfb7e64c5195f0dd2d81d88b7d46f5ef61057c9ed7"
     end
     on_intel do
-      url "https://github.com/borud/amplifi/releases/download/v0.1.1/amplifi_v0.1.1_linux_amd64.tar.gz"
-      sha256 "077d99790b27d0de713ef688731a430ddb2e76eeba0ed4052125d302a5d98ae4"
+      url "https://github.com/borud/amplifi/releases/download/v0.1.2/amplifi_v0.1.2_linux_amd64.tar.gz"
+      sha256 "c4552728deb1b07d57b948905d48fb3d23a11eab4247c9190633e5a4389d4a37"
     end
   end
 
